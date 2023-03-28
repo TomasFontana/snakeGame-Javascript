@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Snake.css">
+    <title>Snake Game</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+    
+  </head>
+  <body id="gameBody">
+    <div id="game" class="game">
+    <div id="board" class="board">
+
+    <button id="resetButton">Reiniciar juego</button>
+    
+
+    <!-- Canvas para el juego de Snake -->
+    <canvas id="snakeCanvas" width="512" height="512"></canvas>
+  
+    <!-- Puntuación del jugador -->
+    
+    <p> <span id="score">0</span></p>
+        <!-- Highscore -->
+        <p><span id="highscore">0</span></p>
+  
+    <!-- Mensaje de Game Over -->
+    <div id="gameOver" class="game-over">Game Over</div>
+  
+    <!-- Script para el juego de Snake -->
+    <script src="snake.js"></script>
+  </body>
+  
+</html>
+

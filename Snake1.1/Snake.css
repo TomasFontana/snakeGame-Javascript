@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  }
+  
+  /* Estilos para el botón de reinicio */
+  #resetButton {
+  background-color: #008080;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  }
+  #resetButton {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  #resetButton:hover {
+  background-color: #005c5c;
+  }
+  
+  /* Estilos para el canvas del juego */
+  #snakeCanvas {
+  display: block;
+  margin: 0 auto;
+  }
+  
+  /* Estilos para la puntuación */
+  #score {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+  }
+  
+  /* Estilos para el mensaje de Game Over */
+  .game-over {
+  color: #11ff00;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  display: none;
+  }
+  
+  /* Estilos para el borde del canvas */
+  canvas {
+  border: 4px solid #00bfff;
+  }
+  
+  /* Estilos para el tablero del juego */
+  .game-board {
+  background-color: #0f4c5c;
+  border: 8px solid #555;
+  box-sizing: border-box;
+  height: 512px;
+  margin: 0 auto;
+  padding: 16px;
+  position: relative;
+  width: 512px;
+  }
+  
+  /* Estilos para las serpientes */
+  .snake {
+  background-color: #00bfff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Estilos para la comida */
+  .food {
+  background-color: #ff5733;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  #score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2c6e7c;
+    padding: 8px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  span {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  #score {
+    font-weight: bold;
+  }
+  
+  #high-score {
+    font-weight: bold;
+    color: #FFA500;
+  }
+  
+  #highscore {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2c6e7c;
+    padding: 8px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .board {
+
+    width: auto;
+    height:auto;
+    margin: 0 auto;
+  }
+  
+  /* estilos adicionales para los colores */
+  .game-purple {
+    background-color: var(--main-bg-color);
+   
+  }
+  
+  .game-red {
+    background-color: var(--main-bg-color);
+    
+  }
+  
+  .game-blue {
+    background-color: var(--main-bg-color);
+    
+  }
+  
